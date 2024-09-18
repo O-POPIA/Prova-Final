@@ -1,0 +1,74 @@
+:root{
+  --cor-fonte: #FFFF;
+}
+
+
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: var(--fonte-cor);
+  text-decoration: none;
+}
+
+.navbar-dark .nav-item .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .nav-item .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  border-radius: 0.25rem;
+  color: #fff;
+}
+
+.fa-li {
+  position: relative;
+  left: 0;
+}
+
+.botao1{
+  text-decoration:none;
+  padding: 8px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px rgb(0, 0, 0);
+
+}
+
+.alinhamento-1{
+  grid-template-columns: 55% 15% 10%;
+  display: grid;
+}
+
+.inicio{
+ background-image: url(img/inicio.png);
+ min-height: 540px;
+}
+
+.texto-inico{
+  text-align: justify;
+  color: var(--cor-fonte);
+  margin: 130px 0px 40px 0px;
+}
+
+.div1{
+ grid-template-columns: 55% 35% 10%;
+ display: grid;
+}
+
+.clique-1{
+  width: 60%;
+}
+
+.alinhamento-2{
+position: relative;
+left: 900px;  bottom: 45px;
+ width: 10%;
+}
+
+.busca-img{
+  width: 20px;
+}

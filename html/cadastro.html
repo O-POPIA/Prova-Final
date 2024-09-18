@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Maratona Tech</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+  <link rel="stylesheet" href="mdb.min.css" />
+  <link rel="stylesheet" href="../css's/cadastro.css"/>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html"><img id="MDB-logo" src="../img/Logo-Empresa.png" alt="MDB Logo" draggable="false"
+          height="70" style="margin: -20px 0px" /></a>
+      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Left links -->
+        <ul class="navbar-nav me-3">
+          <li class="nav-item">
+            <a class="nav-link active d-flex align-items-center" aria-current="page" href="#"><i
+                class="fas fa-bars pe-2"></i>Home</a>
+          </li>
+        </ul>
+        <!-- Left links -->
+
+        <form action="https://www.google.com/search" method="get" class="barra-de-pesquisa">
+          <input type="text" placeholder="Alguma dúvida?" name="q">
+          <button type="submit"><img src="../img/Search-icon.png" alt="" class="busca-img"></button>
+
+
+        </form>
+        <ul class="navbar-nav ms-3">
+          <li class="nav-item me-3">
+            <a class="nav-link d-flex align-items-center" href="#!">Novidades</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link d-flex align-items-center" href="#!">Reciclagem</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link d-flex align-items-center me-3" href="#!"> Sedes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link d-flex align-items-center" href="#!">Cadastro</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Collapsible wrapper -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript" src="js/script.js"></script>
+
+  <div class="formbold-main-wrapper">
+    <!-- Author: FormBold Team -->
+    <!-- Learn More: https://formbold.com -->
+    <div class="formbold-form-wrapper">
+      <form action="https://api.staticforms.xyz/submit" method="POST">
+        <div class="formbold-mb-5">
+          <label for="name" class="formbold-form-label"> Nome Completo </label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Ex: Bruno Bianchin Alves"
+            class="formbold-form-input"
+          />
+        </div>
+        <div class="formbold-mb-5">
+          <label for="phone" class="formbold-form-label"> Número de Telefone </label>
+          <input
+            type="text"
+            name="phone"
+            id="phone"
+            placeholder="(12) 3456-7890"
+            class="formbold-form-input"
+          />
+        </div>
+        <div class="formbold-mb-5">
+          <label for="email" class="formbold-form-label"> Endereço de Email </label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="exemplo@gmail.com"
+            class="formbold-form-input"
+          />
+        </div>
+        <div class="flex flex-wrap formbold--mx-3">
+          <div class="w-full sm:w-half formbold-px-3">
+            <div class="formbold-mb-5 w-full">
+              <label for="date" class="formbold-form-label"> Data </label>
+              <input
+                type="date"
+                name="date"
+                id="date"
+                class="formbold-form-input"
+              />
+            </div>
+          </div>
+          <div class="w-full sm:w-half formbold-px-3">
+            <div class="formbold-mb-5">
+              <label for="time" class="formbold-form-label"> Hora </label>
+              <input
+                type="time"
+                name="time"
+                id="time"
+                class="formbold-form-input"
+              />
+            </div>
+          </div>
+        </div>
+  
+        <div class="formbold-mb-5 formbold-pt-3">
+          <label class="formbold-form-label formbold-form-label-2">
+            Endereço
+          </label>
+          <div class="flex flex-wrap formbold--mx-3">
+            <div class="w-full sm:w-half formbold-px-3">
+              <div class="formbold-mb-5">
+                <input
+                  type="text"
+                  name="$area"
+                  id="area"
+                  placeholder="Bairro"
+                  class="formbold-form-input"
+                />
+              </div>
+            </div>
+            <div class="w-full sm:w-half formbold-px-3">
+              <div class="formbold-mb-5">
+                <input
+                  type="text"
+                  name="$city"
+                  id="city"
+                  placeholder="Cidade"
+                  class="formbold-form-input"
+                />
+              </div>
+            </div>
+            <div class="w-full sm:w-half formbold-px-3">
+              <div class="formbold-mb-5">
+                <input
+                  type="text"
+                  name="$state"
+                  id="state"
+                  placeholder="Estado"
+                  class="formbold-form-input"
+                />
+              </div>
+            </div>
+            <div class="w-full sm:w-half formbold-px-3">
+              <div class="formbold-mb-5">
+                <input
+                  type="text"
+                  name="$post-code"
+                  id="post-code"
+                  placeholder="CEP"
+                  class="formbold-form-input"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div>
+          <button class="formbold-btn">Enviar Formulário</button>
+          <input type="hidden" name="accessKey" value="aa67a486-ebcf-42de-84df-20267bcd721f">
+          <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/html/obrigado.html">
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+.botao1 {
+    text-decoration: none;
+    padding: 8px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0);
+
+}
+
+.alinhamento-1 {
+    grid-template-columns: 55% 15% 10%;
+    display: grid;
+}
+
+
+.div1 {
+    display: flex;
+    justify-content: center;
+    margin: 280px 0px 0px 0px;
+}
+
+.texto-1 {
+    color: aqua;
+}
+
+.texto-2 {
+    color: white;
+}
+
+.div2 {
+    display: flex;
+    justify-content: center;
+}
+
+.clique-1 {
+    width: 60%;
+}
+
+.alinhamento-1 {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+
+}
+
+.busca-img {
+    width: 20px;
+}
+
+body {
+    background-color: #000c2e;
+}
