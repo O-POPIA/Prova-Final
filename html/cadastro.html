@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <head>
-  <title>Maratona Tech</title>
+  <title>Tech Resíduos</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,61 +23,22 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
   <link rel="stylesheet" href="mdb.min.css" />
-  <link rel="stylesheet" href="../css's/cadastro.css"/>
-  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="../css's/cadastro.css" />
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand" href="../index.html"><img id="MDB-logo" src="../img/Logo-Empresa.png" alt="MDB Logo" draggable="false"
-          height="70" style="margin: -20px 0px" /></a>
-      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i>
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark"
+    style="padding: 5px 60px 5px 60px; color:white; margin: -10px 0px 0px 0px;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html"><img src="../img/Logo-Empresa.png" alt="" class="logo"
+          style="max-height: 90px; margin:0px 0px -20px 0px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
-
-      <!-- Collapsible wrapper -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <!-- Left links -->
-        <ul class="navbar-nav me-3">
-          <li class="nav-item">
-            <a class="nav-link active d-flex align-items-center" aria-current="page" href="#"><i
-                class="fas fa-bars pe-2"></i>Home</a>
-          </li>
-        </ul>
-        <!-- Left links -->
-
-        <form action="https://www.google.com/search" method="get" class="barra-de-pesquisa">
-          <input type="text" placeholder="Alguma dúvida?" name="q">
-          <button type="submit"><img src="../img/Search-icon.png" alt="" class="busca-img"></button>
-
-
-        </form>
-        <ul class="navbar-nav ms-3">
-          <li class="nav-item me-3">
-            <a class="nav-link d-flex align-items-center" href="#!">Novidades</a>
-          </li>
-          <li class="nav-item me-3">
-            <a class="nav-link d-flex align-items-center" href="#!">Reciclagem</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link d-flex align-items-center me-3" href="#!"> Sedes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link d-flex align-items-center" href="#!">Cadastro</a>
-          </li>
-        </ul>
-      </div>
-      <!-- Collapsible wrapper -->
     </div>
-    <!-- Container wrapper -->
+    </div>
   </nav>
-  <!-- Navbar -->
-  <!-- MDB -->
-  <script type="text/javascript" src="js/mdb.min.js"></script>
-  <!-- Custom scripts -->
-  <script type="text/javascript" src="js/script.js"></script>
 
   <div class="formbold-main-wrapper">
     <!-- Author: FormBold Team -->
@@ -86,59 +47,31 @@
       <form action="https://api.staticforms.xyz/submit" method="POST">
         <div class="formbold-mb-5">
           <label for="name" class="formbold-form-label"> Nome Completo </label>
-          <input
-            type="text"
-            name="name"
-            id="name"
-            placeholder="Ex: Bruno Bianchin Alves"
-            class="formbold-form-input"
-          />
+          <input type="text" name="name" id="name" placeholder="Ex: Wendel Silva" class="formbold-form-input" />
         </div>
         <div class="formbold-mb-5">
           <label for="phone" class="formbold-form-label"> Número de Telefone </label>
-          <input
-            type="text"
-            name="phone"
-            id="phone"
-            placeholder="(12) 3456-7890"
-            class="formbold-form-input"
-          />
+          <input type="text" name="phone" id="phone" placeholder="(12) 3456-7890" class="formbold-form-input" />
         </div>
         <div class="formbold-mb-5">
           <label for="email" class="formbold-form-label"> Endereço de Email </label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="exemplo@gmail.com"
-            class="formbold-form-input"
-          />
+          <input type="email" name="email" id="email" placeholder="exemplo@gmail.com" class="formbold-form-input" />
         </div>
         <div class="flex flex-wrap formbold--mx-3">
           <div class="w-full sm:w-half formbold-px-3">
             <div class="formbold-mb-5 w-full">
               <label for="date" class="formbold-form-label"> Data </label>
-              <input
-                type="date"
-                name="$Data"
-                id="date"
-                class="formbold-form-input"
-              />
+              <input type="date" name="$Data" id="date" class="formbold-form-input" />
             </div>
           </div>
           <div class="w-full sm:w-half formbold-px-3">
             <div class="formbold-mb-5">
               <label for="time" class="formbold-form-label"> Hora </label>
-              <input
-                type="time"
-                name="$hora"
-                id="time"
-                class="formbold-form-input"
-              />
+              <input type="time" name="$hora" id="time" class="formbold-form-input" />
             </div>
           </div>
         </div>
-  
+
         <div class="formbold-mb-5 formbold-pt-3">
           <label class="formbold-form-label formbold-form-label-2">
             Endereço
@@ -146,59 +79,96 @@
           <div class="flex flex-wrap formbold--mx-3">
             <div class="w-full sm:w-half formbold-px-3">
               <div class="formbold-mb-5">
-                <input
-                  type="text"
-                  name="$Bairro"
-                  id="area"
-                  placeholder="Bairro"
-                  class="formbold-form-input"
-                />
+                <input type="text" name="$Bairro" id="area" placeholder="Bairro" class="formbold-form-input" />
               </div>
             </div>
             <div class="w-full sm:w-half formbold-px-3">
               <div class="formbold-mb-5">
-                <input
-                  type="text"
-                  name="$Cidade"
-                  id="city"
-                  placeholder="Cidade"
-                  class="formbold-form-input"
-                />
+                <input type="text" name="$Cidade" id="city" placeholder="Cidade" class="formbold-form-input" />
               </div>
             </div>
             <div class="w-full sm:w-half formbold-px-3">
               <div class="formbold-mb-5">
-                <input
-                  type="text"
-                  name="$Estado"
-                  id="state"
-                  placeholder="Estado"
-                  class="formbold-form-input"
-                />
+                <input type="text" name="$Estado" id="state" placeholder="Estado" class="formbold-form-input" />
               </div>
             </div>
             <div class="w-full sm:w-half formbold-px-3">
               <div class="formbold-mb-5">
-                <input
-                  type="text"
-                  name="$CEP"
-                  id="post-code"
-                  placeholder="CEP"
-                  class="formbold-form-input"
-                />
+                <input type="text" name="$CEP" id="post-code" placeholder="CEP" class="formbold-form-input" />
               </div>
             </div>
           </div>
         </div>
-  
+
         <div>
           <button class="formbold-btn">Enviar Formulário</button>
           <input type="hidden" name="accessKey" value="aa67a486-ebcf-42de-84df-20267bcd721f">
-          <input type="hidden" name="redirectTo" value="https://maratonatech.vercel.app/html/obrigado.html">
+          <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/html/obrigado.html">
+          
         </div>
       </form>
     </div>
   </div>
+  <footer class="new_footer_area bg_color">
+    <div class="new_footer_top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s"
+              style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+              <h3 class="f-title f_600 t_color f_size_18">Download</h3>
+              <ul class="list-unstyled f_list">
+                <li><a href="#">Cartilha do Apoiador</a></li>
+                <li><a href="#">Android App</a></li>
+                <li><a href="#">IOS App</a></li>
+                <li><a href="#">Desktop App</a></li>
+                <li><a href="#">Nossos Projetos</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s"
+              style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+              <h3 class="f-title f_600 t_color f_size_18">Ajuda</h3>
+              <ul class="list-unstyled f_list">
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Termos &amp; condições</a></li>
+                <li><a href="#">Informar erro</a></li>
+                <li><a href="#">Suporte</a></li>
+                <li><a href="#">Política de Privacidade</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s"
+              style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
+              <h3 class="f-title f_600 t_color f_size_18">Siga-nos</h3>
+              <div class="f_social_icon">
+                <a href="#" class="fab fa-facebook"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-pinterest"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_bg">
+        <div class="footer_bg_one"></div>
+        <div class="footer_bg_two"></div>
+      </div>
+    </div>
+    <div class="footer_bottom">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-sm-7">
+            <p class="mb-0 f_400">© TechResíduos Inc.. 2024 Todos Direitos Reservados.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
