@@ -1,389 +1,324 @@
 <!DOCTYPE html>
+<html lang="pt-BR">
 
 <head>
-  <title>Tech Resíduos</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
-  <link rel="stylesheet" href="mdb.min.css" />
-  <link rel="stylesheet" href=".css's/comentários.css" />
-  <link rel="stylesheet" href="./javascript.js">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festejando a Conexão Campo Cidade</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+        <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-dark"
-    style="padding: 5px 60px 5px 60px; color:white; margin: -10px 0px 0px 0px;">
-    <div class="container-fluid">
-      <a class="navbar-brand" href=""><img src="img/Logo-Empresa.png" alt="Logo da TechResíduos" class="logo"
-          style="max-height: 90px; margin:0px 0px -20px 0px"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+    
+    <audio id="somDoClique" src="sons/som_clique.mp3" preload="auto"></audio>
+
+    <section class="fundo">
+    <header>
+        <nav class="navbar" style="justify-content: center;" >
+            <ul class="menu">
+                <li><a href="./index.html" class="active">Home</a></li>
+                <li><a href="./noticias.html">Notícias</a></li>
+                <li><a href="./conexões/conexoes.html">Conexões</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+        <span style="min-height: 30px;"></span>
+        <div class="slider-container">
+            <div class="slider">
+                <input type="radio" name="toggle" id="btn-1" checked>
+                <input type="radio" name="toggle" id="btn-2">
+                <input type="radio" name="toggle" id="btn-3">
+
+                <div class="slider-controls">
+                    <label for="btn-1"></label>
+                    <label for="btn-2"></label>
+                    <label for="btn-3"></label>
+                </div>
+
+                <ul class="slides">
+                    <li class="slide">
+                        <div class="slide-content">
+                            <h2 class="slide-title">Expoagro 2025 foi lançada oficialmente em Laranjeiras do Sul</h2>
+                            <p class="slide-text">A Expoagro 2025 contará com diversas atrações gratuitas para a
+                                população, incluindo shows e rodeio, além de uma programação voltada ao fortalecimento
+                                do setor agropecuário.</p>
+                            <a href="./noticias/expoagro.html" class="slide-link">Saiba Mais</a>
+                        </div>
+                        <p class="slide-image">
+                            <img src="./img/1740742856expo10.jpg" alt="Expoagro 2025" width="320" height="240">
+                        </p>
+                    </li>
+                    <li class="slide">
+                        <div class="slide-content">
+                            <h2 class="slide-title">Exporio 2025 terá três dias de festa com shows e rodeio gratuitos
+                            </h2>
+                            <p class="slide-text">Vai ter rodeio country, exposição do comércio com mais de 50 empresas,
+                                praça de alimentação, parque e show infantil, e três shows sertanejos. </p>
+                            <a href="#" class="slide-link">Saiba Mais</a>
+                        </div>
+                        <p class="slide-image">
+                            <img src="./img/1745839391IMG_0194.jpg" alt="Exporio 2025" width="320" height="240">
+                        </p>
+                    </li>
+                    <li class="slide">
+                        <div class="slide-content">
+                            <h2 class="slide-title">Porto de Paranaguá receberá maior desembarque de fertilizantes de
+                                sua história</h2>
+                            <p class="slide-text">Navio Tai Knighthood descarregará 78.325 toneladas do produto</p>
+                            <a href="#" class="slide-link">Saiba Mais</a>
+                        </div>
+                        <p class="slide-image">
+                            <img src="./img/A-Historia-do-Porto-de-Paranagua.jpg" alt="Porto de Paranaguá" width="320"
+                                height="240">
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <section class="conexoes-destaque">
+            <h2 class="titulos-gerais">Conexões em Destaque</h2>
+            <div class="destaques-grid">
+                <div class="destaque">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Educação e Conscientização</h3>
+                    <p>Explore as iniciativas educativas do Agrinho que promovem a compreensão da interdependência
+                        campo-cidade.</p>
+                    <a href="./conexões/conexao-1.html">Saiba Mais</a>
+                </div>
+                <div class="destaque">
+                    <i class="fas fa-tractor"></i>
+                    <h3>Valorização do Produtor Rural</h3>
+                    <p>Conheça toda a importância do trabalho dos produtores rurais para a nossa sociedade e economia.
+                    </p>
+                    <a href="./conexões/conexao-2.html">Saiba Mais</a>
+                </div>
+                <div class="destaque">
+                    <i class="fas fa-tree"></i>
+                    <h3>Sustentabilidade e Meio Ambiente</h3>
+                    <p>Descubra como a conexão campo-cidade pode impulsionar práticas mais sustentáveis.</p>
+                    <a href="./conexões/conexao-3.html">Saiba Mais</a>
+                </div>
+                <div class="destaque">
+                    <i class="fas fa-music"></i>
+                    <h3>Cultura e Tradição Local</h3>
+                    <p>Celebre as ricas tradições culturais que emanam do campo e influenciam a vida urbana.</p>
+                    <a href="./conexões/conexao-4.html">Saiba Mais</a>
+                </div>
+                <div class="destaque">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Colaboração e Parcerias</h3>
+                    <p>Explore exemplos de projetos e parcerias bem-sucedidas entre o setor rural e o urbano na nossa
+                        região.</p>
+                    <a href="./conexões/conexao-5.html">Saiba Mais</a>
+                </div>
+                <div class="destaque">
+                    <i class="fas fa-city"></i>
+                    <h3>O Campo na Cidade</h3>
+                    <p>Descubra como elementos do campo se manifestam no ambiente urbano, enriquecendo a vida nas
+                        cidades.</p>
+                    <a href="./conexões/conexao-6.html">Saiba Mais</a>
+                </div>
+            </div>
+        </section>
+    </section>
+  
+    
+
+   
+    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <img src="./img/HQ-1.png" style="width: 250px;" alt="">
+    </button>
+
+    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <img src="./img/HQ-1.png" style="width: 250px;" alt="">
       </button>
-      <div class="collapse navbar-collapse" id="navbarScroll">
-        <form action="https://www.google.com/search" method="get" class="barra-de-pesquisa"
-          style="padding: 0px 10px 0px 10px;">
-          <input type="text" placeholder="Alguma dúvida?" name="q">
-          <button type="submit"><img src="img/Search-icon.png" alt="Lupa" class="busca-img"></button>
-        </form>
-        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-          <li class="nav-item">
-            <a class="nav-link" href="#noticias">Novidades</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#rec">Reciclagem</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#com">Comentários</a>
-          </li>
-        </ul>
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="html/cadastro.html"><img src="img/profile.png" alt="Imagem de cadastro" class="cadastro"
-                style="max-height: 50px; margin:10px 0px 0px 0px"></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
 
-  <section class="inicio">
-    <div class="div-1">
-      <span></span>
-      <p class="texto-inico">Somos uma empresa especializada na coleta, triagem e reciclagem de equipamentos
-        eletrônicos,
-        lixo comum e outros. Acreditamos que a tecnologia pode ser uma grande aliada na construção de um futuro mais
-        sustentável. Por isso, nossa missão é promover a sustentabilidade e minimizar o impacto ambiental do lixo,
-        garantindo a destinação adequada de todos os materiais e contribuindo para um futuro mais limpo e saudável.</p>
-    </div>
-    <div class="alinhamento-1">
-      <span></span>
-      <a href="./html/cadastro.html" class="botao1">Junte-se</a>
-    </div>
-    <div class="alinhamento-2">
-      <span></span>
-      <a href="page2.html"><img src="img/giphy.gif" alt="Clique" class="clique-1"></a>
-      <span></span>
-    </div>
-  </section>
-  <section class="alinhamento-textos-noticias">
-    <h1 class="textos-noticias" id="noticias">Últimas Notícias</h1>
-  </section>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <img src="./img/HQ-1.png" style="width: 250px;" alt="">
+      </button>
 
-  <div class="noticias">
-    <section class="carousel" aria-label="Gallery">
-      <ol class="carousel__viewport">
-        <li id="carousel__slide1" tabindex="0" class="carousel__slide">
-          <div class="carousel__snapper">
-            <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
-            <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
-          </div>
-        </li>
-        <li id="carousel__slide2" tabindex="0" class="carousel__slide">
-          <div class="carousel__snapper"></div>
-          <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
-          <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
-        </li>
-        <li id="carousel__slide3" tabindex="0" class="carousel__slide">
-          <div class="carousel__snapper"></div>
-          <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
-          <a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
-        </li>
-        <li id="carousel__slide4" tabindex="0" class="carousel__slide">
-          <div class="carousel__snapper"></div>
-          <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
-          <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
-        </li>
-      </ol>
-      <aside class="carousel__navigation">
-        <ol class="carousel__navigation-list">
-          <li class="carousel__navigation-item">
-            <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
-          </li>
-          <li class="carousel__navigation-item">
-            <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
-          </li>
-          <li class="carousel__navigation-item">
-            <a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>
-          </li>
-          <li class="carousel__navigation-item">
-            <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
-          </li>
-        </ol>
-      </aside>
-    </section>
-  </div>
-  <div class="alinhamento-titulo-rec">
-    <h1 class="titulo-rec" id="rec">Por Quê Reciclar?</h1>
-  </div>
-  <section class="reciclar">
-    <div class="alinhamento-textos-rec-1">
-      <p class="textos-rec-1">A reciclagem é uma prática fundamental para a preservação do meio ambiente e para a
-        construção de um futuro mais sustentável. Ao reciclar, contribuímos para:
-      <div class="textos-rec-1">
-        <p>Redução do consumo de recursos naturais;</p>
-        <p>Diminuição da produção de lixo;</p>
-        <p>Economia de energia;</p>
-        <p>Redução da poluição;</p>
-        <p id="cores-pag">Criação de empregos.</p>
-        </p>
-      </div>
-    </div>
-    <div class="alinhamento-4">
-      <span></span>
-      <a href="#cores-pag" class="botao2">Quer saber sobre os principais tipos de reciclagem?</a>
-      <div class="alinhamento-5">
-        <span></span>
-        <a href="#cores-pag"><img src="img/giphy.gif" alt="Clique" class="clique-2"></a>
-        <span></span>
-      </div>
-    </div>
-    <div class="alinhamento-6"><img src="img/giphy (1).gif" alt="Clique" class="gif-1"></div>
-  </section>
-  <section class="reciclagem-2">
-    <section class="el-visu">
-      <div class="alinhamento-7">
-        <span></span>
-        <a href="/html/reciclagens.html" class="botao3">Cores da reciclagem</a>
-        <div class="alinhamento-8">
-          <span></span>
-          <a href="/html/reciclagens.html"><img src="img/giphy.gif" alt="Clique" class="clique-3"></a>
-          <span></span>
-        </div>
-      </div>
-      <div class="alinhamento-9"><img src="./img/cores da reciclagem.jpg" alt="Cores da reciclagem" class="cores-rec"></div>
-    </section>
-    <section>
-      <p class="tex-rec"><b>Redução do consumo de recursos naturais:</b> A reciclagem permite que materiais como papel,
-        plástico, vidro e metal sejam reutilizados na produção de novos produtos, diminuindo a necessidade de extrair
-        novos recursos da natureza.</p>
-      <p class="tex-rec"><b>Diminuição da produção de lixo:</b> Ao reciclar, reduzimos a quantidade de lixo enviada para
-        aterros sanitários, o que ajuda a preservar o solo e os recursos hídricos.</p>
-      <p class="tex-rec"><b>Economia de energia:</b> A produção de produtos a partir de materiais reciclados geralmente
-        consome menos energia do que a produção a partir de matérias-primas virgens.</p>
-      <p class="tex-rec"><b>Redução da poluição:</b> A reciclagem ajuda a reduzir a emissão de gases do efeito estufa e
-        a contaminação do ar, da água e do solo.</p>
-      <p class="tex-rec"><b>Criação de empregos:</b> A indústria de reciclagem gera empregos e movimenta
-        a economia.</p>
-    </section>
-  </section>
-  <section class="reciclagem-3">
-    <section class="alinhamento-10">
-      <ol>
-        <li>
-          <p class="tex-rec-3"><b>Coleta:</b> O material a ser reciclado é coletado em
-            pontos de coleta específicos ou na coleta seletiva domiciliar.</p>
-        </li>
-        <li>
-          <p class="tex-rec-3"><b>Transporte:</b> O material coletado é transportado para uma
-            unidade de triagem e processamento.</p>
-        </li>
-        <li>
-          <p class="tex-rec-3"><b>Triagem:</b> O material é separado por tipo (papel, plástico, vidro, metal
-            etc.) e por cor, para garantir a pureza do material que será reciclado.</p>
-        </li>
-        <li>
-          <p class="tex-rec-3"><b>Processamento:</b> O material é processado para remover impurezas e ser
-            transformado em matéria-prima para a produção de novos produtos.</p>
-        </li>
-        <li>
-          <p class="tex-rec-3"><b>Fabricação:</b>A matéria-prima reciclada é utilizada na fabricação de novos
-            produtos, como embalagens, papel, vidro e metal.</p>
-        </li>
-      </ol>
-    </section>
-    <img src="./img/Design sem nome (17).png" alt="Ciclo da Reciclagem" class="rec-3-img">
-  </section>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <img src="./img/HQ-1.png" style="width: 250px;" alt="">
+      </button>
 
-  <div class="alinhamento-titulo-rec">
-    <h1 class="titulo-rec" id="com">Comentários de Clientes</h1>
-  </div>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <img src="./img/HQ-1.png" style="width: 250px;" alt="">
+      </button>
 
-  <div class="outerdiv">
-    <div class="innerdiv">
-      <!-- div1 -->
-      <div class="div1 eachdiv">
-        <div class="userdetails">
-          <div class="imgbox">
-            <img
-              src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-daniel.jpg"
-              alt="Imagem de Pessoa">
-          </div>
-          <div class="detbox">
-            <p class="name">Daniel Silva</p>
-            <p class="designation">Dono do condomínio</p>
-          </div>
-        </div>
-        <div class="review">
-          <h4>Os funcionários são muito prestativos além de tornarem a nossa coleta mais organizado, contribuindo para o
-            meio ambiente.</h4>
-          <p>“ A Tech Resíduos revolucionou a forma como lidamos com os resíduos no nosso condomínio. A coleta é
-            realizada de forma regular e organizada, e a equipe é sempre muito educada. Além disso, a empresa nos
-            oferece um relatório detalhado sobre a quantidade de material reciclado, o que nos motiva a continuar nossos
-            esforços em prol do meio ambiente. ”</p>
-        </div>
-      </div>
-      <!-- div2 -->
-      <div class="div2 eachdiv">
-        <div class="userdetails">
-          <div class="imgbox">
-            <img
-              src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-jonathan.jpg"
-              alt="Imagem de Pessoa">
-          </div>
-          <div class="detbox">
-            <p class="name">Jõao Ribeiro</p>
-            <p class="designation">Empresário</p>
-          </div>
-        </div>
-        <div class="review">
-          <h4>Serviço personalizado sencacional!</h4>
-          <p>“ Sou um pequeno empresário e a Tech Resíduos me ajuda a descartar os resíduos da minha empresa de forma
-            correta e sustentável. O serviço é personalizado e o atendimento é excelente.”</p>
-        </div>
-      </div>
-      <!-- div3 -->
-      <div class="div3 eachdiv">
-        <div class="userdetails">
-          <div class="imgbox">
-            <img
-              src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-kira.jpg"
-              alt="Imagem de Pessoa">
-          </div>
-          <div class="detbox">
-            <p class="name dark">Maria da Glória</p>
-            <p class="designation dark">Professora</p>
-          </div>
-        </div>
-        <div class="review dark">
-          <h4>Ótimo serviço! Super recomendo</h4>
-          <p>“Sou cliente da Tech Resíduos há alguns anos e nunca tive problemas. A coleta é pontual e a equipe é muito
-            eficiente. O que mais me agrada é saber que estou contribuindo para um futuro mais sustentável e que meus
-            resíduos estão sendo descartados de forma correta. Recomendo a Tech Resíduos a todos que se preocupam com o
-            meio ambiente. ”</p>
-        </div>
-      </div>
-      <!-- div4 -->
-      <div class="div4 eachdiv">
-        <div class="userdetails">
-          <div class="imgbox">
-            <img
-              src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-jeanette.jpg"
-              alt="Imagem de Pessoa">
-          </div>
-          <div class="detbox">
-            <p class="name dark">Ana Clara Vargas</p>
-            <p class="designation dark">Autônoma</p>
-          </div>
-        </div>
-        <div class="review dark">
-          <h4>Bela iniciativa.</h4>
-          <p class="texto-div-4">“ A Tech Resíduos me surpreendeu com a variedade de materiais que coletam e com a
-            agilidade na coleta. Recomendo para todos que se preocupam com o meio ambiente. ”</p>
-        </div>
-      </div>
-      <!-- div5 -->
-      <div class="div5 eachdiv">
-        <div class="userdetails">
-          <div class="imgbox">
-            <img
-              src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-patrick.jpg"
-              alt="Imagem de Pessoa">
-          </div>
-          <div class="detbox">
-            <p class="name">Marcos Assunção</p>
-            <p class="designation">Diretor</p>
-          </div>
-        </div>
-        <div class="review">
-          <h4>Empresa Fantástica! As iniciativas deles para tornarem o mundo um lugar mais sustentável são um grande
-            diferencial, além do claro que prestam um serviço sensacional.</h4>
-          <p>“ A Tech Resíduos nos ajudou a criar uma cultura de reciclagem na nossa escola. Os alunos participam
-            ativamente do programa e aprendem sobre a importância de cuidar do planeta. A empresa oferece materiais
-            educativos e realiza palestras para os alunos, o que contribui para a conscientização ambiental”</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <footer class="new_footer_area bg_color">
-    <div class="new_footer_top">
-      <div class="container">
-        <div class="row">
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <img src="./img/HQ-1.png" style="width: 250px;" alt="">
+      </button>
 
-          <div class="col-lg-3 col-md-6">
-            <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s"
-              style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
-              <h3 class="f-title f_600 t_color f_size_18">Download</h3>
-              <ul class="list-unstyled f_list">
-                <li><a href="#">Cartilha do Apoiador</a></li>
-                <li><a href="#">Android App</a></li>
-                <li><a href="#">IOS App</a></li>
-                <li><a href="#">Desktop App</a></li>
-                <li><a href="#">Nossos Projetos</a></li>
-              </ul>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s"
-              style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
-              <h3 class="f-title f_600 t_color f_size_18">Ajuda</h3>
-              <ul class="list-unstyled f_list">
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Termos &amp; condições</a></li>
-                <li><a href="#">Informar erro</a></li>
-                <li><a href="#">Suporte</a></li>
-                <li><a href="#">Política de Privacidade</a></li>
-              </ul>
+            <div class="modal-body">
+             <img class="img-fluid" src="img/HQ-1.png" alt="">
             </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s"
-              style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
-              <h3 class="f-title f_600 t_color f_size_18">Siga-nos</h3>
-              <div class="f_social_icon">
-                <a href="#" class="fab fa-facebook"></a>
-                <a href="#" class="fab fa-twitter"></a>
-                <a href="#" class="fab fa-linkedin"></a>
-                <a href="#" class="fab fa-pinterest"></a>
-              </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <a href="img/HQ-1.png">Ver em nova guia</button>
             </div>
           </div>
         </div>
       </div>
-      <div class="footer_bg">
-        <div class="footer_bg_one"></div>
-        <div class="footer_bg_two"></div>
-      </div>
-    </div>
-    <div class="footer_bottom">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 col-sm-7">
-            <p class="mb-0 f_400">© TechResíduos Inc.. 2024 Todos Direitos Reservados.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
 
+
+
+    <section class="depoimentos-home">
+        <h2 class="titulos-gerais">Depoimentos</h2>
+        <div class="depoimentos-container">
+            <div class="depoimento">
+                <img src="http://via.placeholder.com/80x80?text=Pessoa+1" alt="Depoente 1">
+                <blockquote>"O agro-negócio hoje é fundamental para a economia paranense e tentar prejudicar esse ramo e dar um tiro no proprio pé."</blockquote>
+                <cite>Murilo Morelli - Estudante</cite>
+            </div>
+            <div class="depoimento">
+                <img src="http://via.placeholder.com/80x80?text=Pessoa+2" alt="Depoente 2">
+                <blockquote>"Ver a valorização dos nossos produtos na cidade através do Agrinho é muito gratificante."
+                </blockquote>
+                <cite>Maria Oliveira - Produtora Rural</cite>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Local</h4>
+                                <span>Rua Marechal Deodoro, 450 – 12º andar</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Telefone</h4>
+                                <span>(41) 99678-9201</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Email</h4>
+                                <span>mail@info.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src='./img/agrinho_500x1280-2-1024x400.jpg' class="img-fluid"
+                                        alt="logo" style="border-radius: 90px;box-shadow: inset 2px 1px black;"></a>
+                            </div>
+                            <div class="footer-text">
+                                <p>O Agrinho, um programa de responsabilidade social do Sistema FAEP/SENAR-PR, atua desde 1995 em
+                                    todo o Paraná. Através de uma metodologia inovadora, o programa busca formar cidadãos
+                                    conscientes
+                                    e engajados no desenvolvimento sustentável, abordando temas como sustentabilidade, cidadania e
+                                    saúde.
+                                    O Agrinho promove o debate sobre a interdependência entre o campo e a cidade, combatendo a visão
+                                    simplista de que são realidades antagônicas.</p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Follow us</span>
+                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Links Úteis</h3>
+                            </div>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Educação</a></li>
+                                <li><a href="#">Valorização</a></li>
+                                <li><a href="#">Sustentabilidade</a></li>
+                                <li><a href="#">Cultura</a></li>
+                                <li><a href="#">Colaboração</a></li>
+                                <li><a href="#">Campo na Cidade</a></li>
+                                <li><a href="#">Entrevistas</a></li>
+                                <li><a href="#">Contato</a></li>
+                                <li><a href="#">Últimas Notícias</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Inscreva-se</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>Não esqueça de se inscrever para receber noticias mais recentes.</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Endereço de Email">
+                                    <button style="background-color:#9ABFAA"><i class="fab fa-telegram-plane" ></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Agrinho &copy; 2025, Todos os direitos reservados</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Noticias</a></li>
+                                <li><a href="#">Galeria</a></li>
+                                <li><a href="#">Contato</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
-
+<div class="lightbox-overlay">
+    <div class="lightbox-container">
+        <img src="" alt="" class="lightbox-image">
+        <a href="#" class="lightbox-close">×</a>
+    </div>
+    <a href="#" class="lightbox-prev">‹</a>
+    <a href="#" class="lightbox-next">›</a>
+</div>
 </html>
